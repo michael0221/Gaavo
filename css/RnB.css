@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: montserrat;
+}
+body{
+    background: #ECFFFB;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;
+
+}
+
+header{
+    background-color: #2D767F;
+   
+}
+input{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+nav .icons{
+    display: none;
+}
+
+
+.container{
+    margin-top: 1px;
+}
+.head{
+    display: flex;
+    background: #B4F1F1;
+}
+
+.img img{
+    margin-left: 4.5rem; 
+    border-radius: 50px;
+    padding: 10px;
+    width: 260px;
+    height: 245px;
+}
+
+.img-txt{
+    margin-left: 4rem;
+    padding: 10px;
+}
+
+.RnB-txt{
+    word-spacing: 5px;
+    margin-right: 5.9rem;
+}
+
+.artist{
+    display: flex;
+    background: #ECFFFB;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.img-1 img{
+    margin-left: 4rem; 
+    padding: 10px; 
+    width: 173.6px;
+    height: 173.6px;
+}
+
+.img-2 img{
+    margin-left: 2rem; 
+    padding: 10px; 
+    width: 173.6px;
+    height: 173.6px;
+}
+
+.img-3 img{
+    margin-left: 2rem; 
+    padding: 10px;
+    width: 173.6px;
+    height: 173.6px;
+}
+
+.img-4 img{
+    margin-left: 2rem; 
+    padding: 10px;
+    width: 173.6px;
+    height: 173.6px;
+}
+
+.img-5 img{
+    margin-left: 2rem;
+    margin-right: 4rem; 
+    padding: 10px; 
+    width: 173.6px;
+    height: 173.6px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    background-color: #1E6262;
+    color: white;
+    height: 60px;
+}
+
+.copyright, .socialicons{
+    display: flex;
+    justify-content: space-between;
+}
+
+i{
+    padding-left: 0.5rem;
+}
+
+
+@media screen and (max-width: 700px){
+ 
+    .nav-links ul li{
+        display: block;
+        
+    }
+    body{
+        overflow: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: #2D767F;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1.2s;
+        
+    }
+    nav .icons{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        cursor: pointer;
+        font-size: 30px;
+
+    }
+    .nav-links ul{
+        padding: 30px;
+       
+    }
+    .nav-links ul li{
+        padding: 20px;
+    }
+    input{
+        display: none;
+    }
+    .wrapper{
+        overflow: hidden;
+    }
+    
+    .img img{
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+
+
+    }
+    .img-4 img, .img-1 img, .img-2 img, .img-3 img, .img-5 img{
+        margin-left: 0;
+    }
+
+    .img-txt{
+        margin-left: 0;
+    }
+
+    .feature{
+        text-align: center;
+        margin-left: 0;
+    }
+    .head{
+        flex-direction: column;
+        align-items: center;
+    }
+    .artist{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    }
+}
