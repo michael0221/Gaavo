@@ -6,10 +6,7 @@
 }
 body{
     background: #ECFFFB;
-<<<<<<< HEAD
     position: relative;
-=======
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 }
 nav{
     display: flex;
@@ -20,11 +17,7 @@ nav{
 }
 
 header{
-<<<<<<< HEAD
     background-color: #fff;
-=======
-    background-color: #2D767F;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
    
 }
 input{
@@ -32,13 +25,10 @@ input{
     outline: none;
     border-radius: 15px;
     border: none;
-<<<<<<< HEAD
     background: #CBEBE6;
 }
 #icon{
     color: black;
-=======
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 }
 
 .nav-links{
@@ -53,17 +43,10 @@ input{
     position: relative;
 }
 .nav-links ul li a{
-<<<<<<< HEAD
     color: #363636;
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
-=======
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     padding: 0 10px;
 }
 nav .icons{
@@ -103,12 +86,8 @@ nav .icons{
     justify-content: space-between;
     text-align: center;
     width: 100%;
-<<<<<<< HEAD
     height: 250px;
     /* flex-wrap: wrap; */
-=======
-    flex-wrap: wrap;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 }
 
 .img-1 img{
@@ -148,7 +127,6 @@ nav .icons{
 }
 
 
-<<<<<<< HEAD
 .img-1 img:hover{
     transform: translateY(-0.9%);
 }
@@ -166,8 +144,6 @@ nav .icons{
 }
 
 
-=======
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 .footer{
     display: flex;
     justify-content: space-between;
@@ -175,16 +151,10 @@ nav .icons{
     font-weight: 500;
     font-size: 24px;
     width: 100%;
-<<<<<<< HEAD
     background-color: #39C0B1;
     color: white;
     height: 40px;
     padding: 30px;
-=======
-    background-color: #1E6262;
-    color: white;
-    height: 60px;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 }
 
 .copyright, .socialicons{
@@ -197,30 +167,15 @@ i{
 }
 
 @media screen and (max-width: 700px){
-<<<<<<< HEAD
-
-=======
- 
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     .nav-links ul li{
         display: block;
         
     }
-<<<<<<< HEAD
     .nav-links{
         position: absolute;
         background-color: #508888;
         height: 100vh;
         white-space: nowrap;
-=======
-    body{
-        overflow: hidden;
-    }
-    .nav-links{
-        position: absolute;
-        background-color: #2D767F;
-        height: 100vh;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
         width: 200px;
         top: 0;
         right: -200px;
@@ -229,14 +184,11 @@ i{
         transition: 1.2s;
         
     }
-<<<<<<< HEAD
     body{
         text-align: center;
         align-items: center;
         justify-content: center;
     }
-=======
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     nav .icons{
         display: block;
         color: #fff;
@@ -255,13 +207,8 @@ i{
     input{
         display: none;
     }
-<<<<<<< HEAD
     html{
         overflow-x: hidden;
-=======
-    .wrapper{
-        overflow: hidden;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     }
     
     .img img{
@@ -273,10 +220,7 @@ i{
     }
     .img-4 img, .img-1 img, .img-2 img, .img-3 img, .img-5 img{
         margin-left: 0;
-<<<<<<< HEAD
         margin-right: 0;
-=======
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     }
 
     .img-txt{
@@ -286,18 +230,14 @@ i{
     .feature{
         text-align: center;
         margin-left: 0;
-<<<<<<< HEAD
         margin-right: 4.5rem;
         padding: 0;
-=======
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     }
     .head{
         flex-direction: column;
         align-items: center;
     }
     .artist{
-<<<<<<< HEAD
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
@@ -322,11 +262,5 @@ i{
     }
     .h4-5{
         margin-left: 1rem;
-=======
-        /* flex-direction: column; */
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-left: 0;
->>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     }
 }
