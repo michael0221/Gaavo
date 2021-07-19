@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    width: 100vw;
+    background-color: #1E6262;
+    color: white;
+    height: 60px;
+}
+
+.copyright, .socialicons{
+    display: flex;
+    justify-content: space-between; 
+}
+
+i{
+    padding-left: 0.5rem;
+}
