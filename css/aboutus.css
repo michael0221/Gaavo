@@ -10,6 +10,13 @@ header{
     background-color: #FFFFFF;
    
 }
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items:center;
+
+}
 input{
     padding: 10px 20px;
     outline: none;
@@ -32,8 +39,8 @@ input{
 .nav-links ul li a{
     color: #363636;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
     padding: 0 10px;
 }
 nav .icons{
@@ -70,7 +77,9 @@ h2{
     text-align: center;
     padding: 2rem;
 }
-
+h4{
+    width: 200px;
+}
 .team{
     display: flex;
     flex-wrap: wrap;
@@ -84,10 +93,12 @@ h2{
     align-items: center;
     font-weight: 500;
     font-size: 24px;
-    width: 100vw;
-    background-color: #1E6262;
+    width: 100%;
+    background-color: #39C0B1;
     color: white;
-    height: 60px;
+    height: 40px;
+    padding: 30px;
+    padding:auto;
 }
 
 .copyright, .socialicons{

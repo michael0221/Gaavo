@@ -38,10 +38,10 @@ input{
     position: relative;
 }
 .nav-links ul li a{
-    color: white;
+    color: #363636;
     text-decoration: none;
-    font-size: 13px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
     padding: 0 10px;
 }
 nav .icons{
