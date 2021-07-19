@@ -22,8 +22,10 @@ header{
 input{
     padding: 10px 20px;
     outline: none;
-    border-radius: 15px;
-    border: none;
+    color: #5A5959;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
     background-color: #CBEBE6;
 }
 
@@ -155,6 +157,7 @@ audio{
         position: absolute;
         background-color: #2D767F;
         height: 100vh;
+        white-space: nowrap;
         width: 200px;
         top: 0;
         right: -200px;
@@ -165,12 +168,12 @@ audio{
         
     }
     nav .icons{
-        display: block;
-        color: #fff;
+        display: inline;
+        color: rgb(8, 8, 8);
         margin: 10px;
         cursor: pointer;
         font-size: 30px;
-        display: none;
+        
 
     }
     .nav-links ul{

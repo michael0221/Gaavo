@@ -35,10 +35,10 @@ input{
     padding: 10px 20px;
     outline: none;
     color: #5A5959;
-    border-radius: 15px;
-    border: none;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
     background-color: #CBEBE6;
-    ;
 }
 
 .nav-links{
@@ -262,7 +262,7 @@ i{
         overflow-x: hidden;
     }
     nav .icons{
-        display: block;
+        display: inline;
         color: #fff;
         margin: 10px;
         cursor: pointer;
