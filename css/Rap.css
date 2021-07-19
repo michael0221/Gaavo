@@ -148,7 +148,13 @@ i{
         display: block;
         
     }
+<<<<<<< HEAD
 
+=======
+    body{
+        overflow: hidden;
+    }
+>>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
     .nav-links{
         position: absolute;
         background-color: #2D767F;

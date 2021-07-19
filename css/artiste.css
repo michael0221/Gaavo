@@ -122,7 +122,7 @@ audio{
         display: block;
         
     }
-    body{
+    html{
         overflow: hidden;
     }
     audio{
@@ -167,8 +167,5 @@ audio{
     }
     input{
         display: none;
-    }
-    .wrapper{
-        overflow: hidden;
     } 
 }

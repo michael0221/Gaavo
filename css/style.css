@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
 *{
     box-sizing: border-box;
@@ -214,17 +215,32 @@ nav .icons{
     font-weight: 500;
     padding-top: 40px;
 }
+=======
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+>>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: 500;
     font-size: 24px;
+<<<<<<< HEAD
     width: 100%;
     background-color: #39C0B1;
     color: white;
     height: 60px;
     padding: 40px;
+=======
+    width: 100vw;
+    background-color: #1E6262;
+    color: white;
+    height: 60px;
+>>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
 }
 
 .copyright, .socialicons{
@@ -235,6 +251,7 @@ nav .icons{
 i{
     padding-left: 0.5rem;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 700px){
 
@@ -318,3 +335,5 @@ i{
         grid-template-columns: 1fr;
     }
 }
+=======
+>>>>>>> e67d48bd9b5bd708baed11028d5357fc7b5dfd99
