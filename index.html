@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Gaavo</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--NAVBAR-->
+            <!-- <header> -->
+                <nav>
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <div class="nav-links" id = 'navLinks'>
+                        
+                        <!-- add closing icon -->
+                        <i class=" icons ri-close-fill" onclick="hideMenu()"></i>
+
+                        <ul id="MenuList">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#genre">Genres</a></li>
+                            <li>
+                                <input type="search" placeholder="Music, Artiste name" name = 'song-name'>
+                            </li>
+                        
+                        </ul>
+                        
+                    </div>
+                    <i class=" icons ri-menu-line" onclick="ShowMenu()"></i>
+                </nav>
+    
+            <!-- </header> -->
+		<!--BODY-->
+		<div class="banner-area">
+			<h2>Know your music</h2>
+            <h4>Explore different genres, artistes and tracks from around the globe</h4>
+		</div>
+        <section class="section">
+            <div class="about">
+                <div class="aboutblock" data-aos="fade-up"><p>"Find your favourite artistes and know all their songs on Gaavo"</p></div>
+                <div class="aboutblock img2" data-aos="fade-up"><img src="images/find-artistes.png" width="350px"></div>
+                <div class="aboutblock img2" data-aos="fade-in"><img src="images/discover-artiste.png" width="350px"></div>
+                <div class="aboutblock"  data-aos="fade-in"><p>  "Discover new artistes in your favourite genres"</p></div>
+            </div>
+        </section>
+		<div class="content-area">
+            <!-- <div class="about">
+                <div class="aboutblock"><p>Find your favourite artistes and know all their songs on gaavo</p></div>
+                <div class="aboutblock"><img src="images/find-artistes.png"></div>
+                <div class="aboutblock"><img src="images/discover-artiste.png"></div>
+                <div class="aboutblock"><p>  discover new artistes in your favourite genres</p></div>
+
+            </div> -->
+			<div class="wrap">
+				<h5>Genres</h5>
+            </div>  
+            <div id="genre" class="genres" data-aos="fade-up">
+                <ul>
+                    <div class="img-box">
+                        <li> <a href="./RnB.html"><img src="./images/rnb.png" alt="">
+                            <div class="image_overlay image_overlay--blur">
+                                <div class="image_title">RNB</div>
+                            </div></a></li>
+                        <div class="centered">RNB</div>
+                    </div>
+                    
+                    <div class="img-box">
+                        <li><a href="./ukdrill.html"><img src="./images/ukdrill.png" alt="">
+                        <div class="image_overlay image_overlay--blur">
+                            <div class="image_title">UK DRILL</div>
+                        </div>
+                        </a></li>
+                        <div class="centered">UK DRILL</div>
+                    </div>
+                
+                    <div class="img-box">
+                        <li><a href="./Rap.html"><img src="./images/rap.png" alt="">
+                            <div class="image_overlay image_overlay--blur">
+                                <div class="image_title">RAP</div>
+                            </div></a></li>
+                        <div class="centered">RAP</div>
+                    </div>
+                <div class="img-box">
+                    <li><a href="./afrobeat.html"> <img src="./images/afrobeat.png" alt="">
+                        <div class="image_overlay image_overlay--blur">
+                            <div class="image_title">AFROBEAT</div>
+                        </div></a></li>
+                    <div class="centered">AFROBEAT</div>
+                </div>
+                </ul>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <div class="copyright">
+                 <i class="ri-copyright-fill"></i>
+                 copyright
+                </div>
+                <div class="socialicons">
+                 <i class="ri-facebook-box-fill"></i>
+                 <i class="ri-instagram-fill"></i>
+                 <i class="ri-twitter-fill"></i>
+                </div>
+            </div>
+        </footer>
+      
+    </div> 
+      <!--SCRIPT FOR NAVBAR-->
+      <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function ShowMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+       
+     
+    </script>   
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 400,
+        duration: 2000
+    });
+  </script>
+</body>
+</html>
